@@ -19,6 +19,17 @@ fn main() {
     let output = "This is a test. This is only a test.".as_bytes();
 
    port.write(output).expect("Write failed!");
+   // Alright we should have our port open but maybe later we can add something that lets us take
+   // the output and select from it.. Could be nice!
+   
+   //collect mouse input
 
+   while keyboard_pressed_q =! 1 {
+       let mousex = mousx.system;
+       let mousey = mousy.system;
+
+       if 
+       
+   }
 
 }
